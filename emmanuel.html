@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Welcome To My Webpage</h1>
+        <div class="tags">
+            <a href="others/about.html" target="_blank">Click To Go To About Us Page</a>
+        </div>
+        <div class="tags">
+            <a href="others/contact.html" target="_blank">Click To Go To Contact Page</a> 
+        </div>
+        <div class="tags">
+            <a href="others/blog.html" target="_blank">Click To Go To Blog Page</a>   
+        </div>
+    </div>
+
+    <div class="form">
+        <form action="">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name"> <br><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name"> <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required> <br><br>
+
+            <p>Gender:</p> 
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="others">Rather Not Say</label>
+            <input type="radio" id="others" name="sex" value="others"> <br><br>
+
+            <label for="food">Favorite Food:</label>
+            <select id="food">
+                <option value="beans">Beans</option>
+                <option value="rice">Rice</option>
+                <option value="soup">Soup</option>
+                <option value="pizza">Pizza</option>              
+            </select>
+            <br><br>
+            <label for="certificate">Certificate:</label>
+            <select id="certificate">
+                <option value="flsc">FLSC</option>
+                <option value="o-level">O'level</option>
+                <option value="bsc">BSc</option>             
+            </select>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone"> <br><br>
+
+            <label for="about">Tell Us About Yourself:</label> <br>
+            <textarea name="" id="about" cols="40" rows="8"></textarea> <br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
